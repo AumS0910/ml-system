@@ -19,7 +19,7 @@ Training and inference are separated to avoid retraining during requests.
 
 ## 📁 Project Structure
 
-project-1-ml-system/
+```project-1-ml-system/
 │
 ├── data/
 │ └── data.csv
@@ -36,7 +36,7 @@ project-1-ml-system/
 ├── Dockerfile
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 ## ⚙️ How to Run Locally
