@@ -21,17 +21,20 @@ Training and inference are separated to avoid retraining during requests.
 
 project-1-ml-system/
 │
-├── data/              # Training dataset
+├── data/
+│ └── data.csv
+│
 ├── src/
-│   ├── train.py       # Training pipeline
-│   ├── predict.py     # Inference logic
+│ ├── train.py # Training pipeline
+│ ├── predict.py # Model loading + prediction logic
 │
 ├── api/
-│   └── main.py        # FastAPI server
+│ └── main.py # FastAPI application
 │
-├── model.pkl          # Saved model artifact
+├── model.pkl # Trained model artifact
 ├── requirements.txt
 ├── Dockerfile
+├── .gitignore
 └── README.md
 
 ---
@@ -94,5 +97,6 @@ This project demonstrates:
 - API deployment of ML models
 - Containerization with Docker
 - Clean, modular architecture
+
 
 It is intentionally simple in modeling but strong in engineering discipline.
