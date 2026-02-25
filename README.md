@@ -18,8 +18,8 @@ Training and inference are separated to avoid retraining during requests.
 ---
 
 ## 📁 Project Structure
-
-```project-1-ml-system/
+```
+project-1-ml-system/
 │
 ├── data/
 │ └── data.csv
@@ -100,3 +100,4 @@ This project demonstrates:
 
 
 It is intentionally simple in modeling but strong in engineering discipline.
+
